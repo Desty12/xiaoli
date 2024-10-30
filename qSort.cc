@@ -55,6 +55,7 @@ void test()
   cout << endl;
 }
 
+// 主函数
 int main()
 {
   test();
