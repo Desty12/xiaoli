@@ -55,7 +55,7 @@ void test()
   cout << endl;
 }
 
-// 主函数
+// 11主函数,main()函数入口
 int main()
 {
   int a = 11;
