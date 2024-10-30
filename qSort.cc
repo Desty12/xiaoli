@@ -63,8 +63,8 @@ void test2()
 // 11主函数,main()函数入口
 int main()
 {
-  int a = 11;
-  test2();
+  int a11 = 11;
+  test2(10.1, a11); // git practice提交修改
   int b = 222;
   int c = 333;
   test1();
