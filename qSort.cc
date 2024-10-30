@@ -58,7 +58,10 @@ void test()
 // 主函数
 int main()
 {
+  int a = 11;
   test();
+  int c = 20;
+  cout << a << "\t" << b << endl;
 
   return 0;
 }
