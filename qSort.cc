@@ -34,7 +34,7 @@ void qSort(int arr[], int left, int right)
 }
 
 // 具体的执行函数
-void test()
+void test1()
 {
   int arr[10] = {5,7,1,3,4,8,9,2,6,11};
   
@@ -55,11 +55,19 @@ void test()
   cout << endl;
 }
 
+void test2()
+{
+
+}
+
 // 11主函数,main()函数入口
 int main()
 {
   int a = 11;
-  test();
+  test2();
+  int b = 222;
+  int c = 333;
+  test1();
   int c = 20;
   cout << a << "\t" << b << endl;
 
