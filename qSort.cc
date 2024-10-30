@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// 快排算法确定邵兵位置
 int PartionIndex(int arr[], int left, int right)
 {
    int partIndex = arr[left];
@@ -21,6 +22,7 @@ int PartionIndex(int arr[], int left, int right)
    return right;
 }
 
+// 快速排序
 void qSort(int arr[], int left, int right)
 {
   if(left < right)
@@ -31,7 +33,7 @@ void qSort(int arr[], int left, int right)
   }
 }
 
-
+// 具体的执行函数
 void test()
 {
   int arr[10] = {5,7,1,3,4,8,9,2,6,11};
